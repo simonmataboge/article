@@ -46,7 +46,7 @@ box-shadow: 0 0 0.9rem #12f7ff;
 }
 @media screen and (max-width:400px ){
 	.brand{
-        margin-left: 360px;
+        margin-left: 320px;
         margin-top: -45px;
 	}
 }
@@ -556,7 +556,7 @@ height:300px;
 
 @media screen and (max-width:400px ){
 	.testimonials{
-		width: 460px;margin-left: 20px;margin-top: 10px;
+		width: 480px;margin-left: 10px;margin-top: 10px;
     }
 }
 
