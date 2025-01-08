@@ -46,7 +46,7 @@ box-shadow: 0 0 0.9rem #12f7ff;
 }
 @media screen and (max-width:400px ){
 	.brand{
-        margin-left: 320px;
+        margin-left: 360px;
         margin-top: -45px;
 	}
 }
