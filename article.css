@@ -40,8 +40,8 @@ box-shadow: 0 0 0.9rem #12f7ff;
 }
 @media screen and (max-width:1000px ){
 	.brand{
-        margin-left: 340px;
-        margin-top: -38px;
+        margin-left: 400px;
+        margin-top: -45px;
 	}
 }
 .menu
@@ -83,8 +83,7 @@ box-shadow: 0 0 0.9rem #12f7ff;
 }
 @media screen and (max-width:1000px ){
 	.socials{
-		margin-left: -80px;
-        margin-top: -250px;
+		display: none;
 	}
 }
 .socials a
@@ -117,10 +116,18 @@ box-shadow: 0 0 0.9rem #12f7ff;
 	padding:10px;
 	margin-left:200px;
 }
+@media screen and (max-width:1000px ){
+    .left{
+        width: 490px;
+		margin-left: 0px;
+		margin-top: 40px;
+	}
+}
 @media screen and (max-width:400px ){
     .left{
         width: 490px;
 		margin-left: 10px;
+		margin-top: 100px;
 	}
 }
 .cards
@@ -133,9 +140,9 @@ box-shadow: 0 0 0.9rem #12f7ff;
 	display:inline-block;
 
 }
-@media screen and (max-width:400px ){
+@media screen and (max-width:1000px ){
     .cards{
-        width: 240px;
+        width: 480px;
 	}
 }
 .cards h2
@@ -155,6 +162,12 @@ box-shadow: 0 0 0.9rem #12f7ff;
     width:800px;
     margin-left:200px;
 }
+@media screen and (max-width:1000px ){
+    .heading{
+        width: 490px;
+		margin-left: 10px;
+	}
+}
 @media screen and (max-width:400px ){
     .heading{
         width: 490px;
@@ -165,6 +178,11 @@ box-shadow: 0 0 0.9rem #12f7ff;
 {
     background-color:red;
     padding:10px;
+}
+@media screen and (max-width:400px ){
+    .alert{
+        width: 490px;
+	}
 }
 .alert h1
 {
@@ -184,6 +202,11 @@ box-shadow: 0 0 0.9rem #12f7ff;
 {
     margin-top:-40px;
     margin-left:270px;
+}
+@media screen and (max-width:400px ){
+    .alert-box{
+        width: 490px;
+	}
 }
 h2
 {
@@ -223,6 +246,16 @@ h2
 	width:650px;
 	margin-top:50px;
 	margin-left:0px;
+}
+@media screen and (max-width:1000px ){
+    .box{
+        width: 490px;
+	}
+}
+@media screen and (max-width:400px ){
+    .box{
+        width: 490px;
+	}
 }
 .advert
 {
@@ -266,7 +299,12 @@ color:white;
     background-size: cover;
     background-position: full image;
 }
-
+@media screen and (max-width:1000px ){
+    .advert2{
+        width: 490px;
+		margin-left: 0px;
+	}
+}
 .advert2:hover
 {
     text-decoration:none;
@@ -425,7 +463,7 @@ height:300px;
 @media screen and (max-width:1000px ){
     .carousel-control-prev{
         margin-left: -20px;
-        margin-top: 90px;
+        margin-top: 200px;
 	}
 }
 @media screen and (max-width:400px ){
@@ -443,8 +481,8 @@ height:300px;
 }
 @media screen and (max-width:1000px ){
     .carousel-control-next{
-        margin-right: 210px;
-        margin-top: 90px;
+        margin-right: -10px;
+        margin-top: 200px;
 	}
 }
 @media screen and (max-width:400px ){
@@ -471,9 +509,9 @@ height:300px;
 }
 @media screen and (max-width:1000px ){
 	#testimonials{
-		height: 400px;
-		margin-left: 10px;
-		width: 466px;
+		height: 600px;
+		margin-left: 0px;
+		width: 500px;
 	}
 }
 @media screen and (max-width:400px ){
@@ -522,8 +560,8 @@ height:300px;
 }
 @media screen and (max-width:1000px ){
 	.testimonial{
-		width: 215px;
-		height: 310px;
+		width: 230px;
+		height: 240px;margin-top: 20px;
 	}
 }
 @media screen and (max-width:400px ){
@@ -548,7 +586,13 @@ height:300px;
 	transform: rotate3d(1,1,0,20deg);
 }
 
-
+@media screen and (max-width:1000px ){
+	.testimonials-box{
+		width: 230px;
+		height: 280px;
+		margin-top: -10px;
+	}
+}
 
 
 
@@ -577,7 +621,7 @@ height:300px;
 	background-repeat: no-repeat;
 	background-size: cover;
 	border-radius: 5px;
-	height: 200px;
+	height: 250px;
 }
 #testimonial-emma
 {
@@ -585,7 +629,7 @@ height:300px;
 	background-repeat: no-repeat;
 	background-size: cover;
 	border-radius: 5px;
-	height: 200px;
+	height: 250px;
 }
 #testimonial-lebo
 {
@@ -593,7 +637,7 @@ height:300px;
 	background-repeat: no-repeat;
 	background-size: cover;
 	border-radius: 5px;
-	height: 200px;
+	height: 250px;
 }
 #testimonial-thuso
 {
@@ -601,7 +645,7 @@ height:300px;
 	background-repeat: no-repeat;
 	background-size: cover;
 	border-radius: 5px;
-	height: 200px;
+	height: 250px;
 }
 
 
@@ -636,14 +680,25 @@ height:300px;
 
     padding:10px;
     color:white;
-    width:30%;
+    width:250px;
     border-radius: 5px;
     background: var(--cover-color);
+}
+@media screen and (max-width:1000px ){
+    #testimonials h2{
+        width: 240px;
+	}
 }
 .view
 {
     margin-top:-50px;
     margin-left:-30px;
+}
+@media screen and (max-width:1000px ){
+	.view{
+		margin-top: 20px;
+		margin-left: 0px;
+	}
 }
 .view a, .add a
 {
@@ -695,4 +750,11 @@ box-shadow: 0 0 0.9rem #12f7ff;
 	display:inline-block;
 	background-color:white;
 
+}
+@media screen and (max-width:1000px ){
+	.footer .cardless{
+		width: 250px;
+		margin-left: 0px;
+		
+	}
 }
