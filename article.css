@@ -179,11 +179,7 @@ box-shadow: 0 0 0.9rem #12f7ff;
     background-color:red;
     padding:10px;
 }
-@media screen and (max-width:400px ){
-    .alert{
-        width: 490px;
-	}
-}
+
 .alert h1
 {
     width:300px;
