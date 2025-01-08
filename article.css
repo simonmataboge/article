@@ -17,7 +17,11 @@
     background-position: full image;
 
 }
-
+@media screen and (max-width:400px ){
+    .header{
+        width: 490px;
+	}
+}
 .brand
 {
     color: black;
@@ -69,8 +73,8 @@ box-shadow: 0 0 0.9rem #12f7ff;
 }
 .socials
 {
-	margin-top:-610px;
-    margin-left: 60px;
+	margin-top:-610px;width: 100px;
+    margin-left: 0px;background-color: red;
 
 }
 .socials-box{
@@ -90,7 +94,7 @@ box-shadow: 0 0 0.9rem #12f7ff;
 	width:50px;
 	text-align:center;
 	margin-top:10px;
-	margin-left:0px;
+	margin-left:10px;
 	height:50px;
 	padding:10px;
     color: white;
@@ -111,7 +115,13 @@ box-shadow: 0 0 0.9rem #12f7ff;
     width:650px;
 	margin-top:400px;
 	padding:10px;
-	margin-left:190px;
+	margin-left:200px;
+}
+@media screen and (max-width:400px ){
+    .left{
+        width: 490px;
+		margin-left: 10px;
+	}
 }
 .cards
 {
@@ -122,6 +132,11 @@ box-shadow: 0 0 0.9rem #12f7ff;
 	margin-left:0px;
 	display:inline-block;
 
+}
+@media screen and (max-width:400px ){
+    .cards{
+        width: 240px;
+	}
 }
 .cards h2
 {
@@ -139,6 +154,12 @@ box-shadow: 0 0 0.9rem #12f7ff;
 {
     width:800px;
     margin-left:200px;
+}
+@media screen and (max-width:400px ){
+    .heading{
+        width: 490px;
+		margin-left: 10px;
+	}
 }
 .alert
 {
@@ -192,6 +213,11 @@ h2
     margin-top: 20px;
     width: 600px;
 }
+@media screen and (max-width:400px ){
+    .container{
+        width: 490px;
+	}
+}
 .box
 {
 	width:650px;
@@ -240,6 +266,7 @@ color:white;
     background-size: cover;
     background-position: full image;
 }
+
 .advert2:hover
 {
     text-decoration:none;
@@ -283,7 +310,7 @@ color:white;
 @media screen and (max-width:400px ){
     #slider{
 
-        width: 480px;
+        width: 490px;
 	}
 }
 #slider h1
@@ -302,7 +329,7 @@ color:white;
 @media screen and (max-width:400px ){
     .carousel-item{
         height: 700px;
-        width: 480px;
+        width: 490px;
 	}
 }
 .carousel-caption
@@ -438,7 +465,7 @@ height:300px;
 #testimonials
 {
     height: 400px;
-    margin-top: 0px;
+    margin-top: 40px;
   	background-size: cover;
 	width: 100%;
 }
@@ -451,7 +478,7 @@ height:300px;
 }
 @media screen and (max-width:400px ){
 	#testimonials{
-		width: 470px;
+		width: 490px;
 		margin-left: 10px;
 	}
 }
@@ -460,7 +487,7 @@ height:300px;
 	margin-top:10px;
 	display:inline-block;
 	padding-bottom:10px;
-	margin-left:230px;
+	margin-left:200px;
 
 
 
@@ -657,6 +684,7 @@ box-shadow: 0 0 0.9rem #12f7ff;
     behavior:slide;
     font-size: 40px;
 }
+
 .footer .cardless
 {
 
