@@ -218,7 +218,8 @@ box-shadow: 0 0 0.9rem #12f7ff;
 }
 @media screen and (max-width:400px ){
     .alert-box{
-        width: 290px;margin-left:200px;
+        width: 200px;
+		margin-left: 0px;
 	}
 }
 h2
@@ -606,7 +607,11 @@ height:300px;
 		margin-top: -10px;
 	}
 }
-
+@media screen and (max-width:400px ){
+	.testimonials-box{
+		margin-top: 10px;
+	}
+}
 
 
 
