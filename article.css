@@ -197,7 +197,7 @@ box-shadow: 0 0 0.9rem #12f7ff;
 }
 @media screen and (max-width:400px ){
     .alert h1{
-        width: 190px;
+        width: 170px;
 		margin-left: 0px;font-size:30px;
 	}
 }
@@ -218,8 +218,8 @@ box-shadow: 0 0 0.9rem #12f7ff;
 }
 @media screen and (max-width:400px ){
     .alert-box{
-        width: 200px;
-		margin-left: 190px;
+        width: 280px;
+		margin-left: 170px;
 	}
 }
 h2
