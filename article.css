@@ -218,7 +218,7 @@ box-shadow: 0 0 0.9rem #12f7ff;
 }
 @media screen and (max-width:400px ){
     .alert-box{
-        width: 490px;
+        width: 290px;margin-left:200px;
 	}
 }
 h2
