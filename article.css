@@ -581,7 +581,7 @@ height:300px;
 @media screen and (max-width:400px ){
 	.testimonial{
 		width: 230px;
-		height: 250px;margin-top: 0px;
+		height: 250px;margin-top: 20px;
 	}
 }
 .testimonials-box
@@ -609,7 +609,7 @@ height:300px;
 }
 @media screen and (max-width:400px ){
 	.testimonials-box{
-		margin-top: 10px;
+		margin-top: 20px;
 	}
 }
 
